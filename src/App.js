@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Todo from "./components/Todo";
 import './App.css';
+import Home from "./components/Home";
 import { BrowserRouter as Router, Route, Routes   } from 'react-router-dom';
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
       <Navbar />
       <div className="flex-grow-1">
         <Routes >
-        <Route path="/" element={<Hero />} />
+        <Route path="/" element={<Hero/>} />
         <Route path="/todo-list" element={<Todo />} />
         </Routes >
       </div>
