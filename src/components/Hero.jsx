@@ -1,5 +1,6 @@
 import React from "react";
-import img from "C:/Users/Nina/Desktop/NewToDoList/my-app/src/assets/Landing-page-background.jpg";
+import img from "my-app/src/assets/Landing-page-background.jpg";
+
 
 
 function Hero(){
