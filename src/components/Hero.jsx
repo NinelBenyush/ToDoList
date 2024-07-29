@@ -1,5 +1,5 @@
 import React from "react";
-import img from "my-app/src/assets/Landing-page-background.jpg";
+import img from "../assets/Landing-page-background.jpg";
 
 
 
